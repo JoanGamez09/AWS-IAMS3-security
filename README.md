@@ -1,4 +1,4 @@
-### IAM and S3 Infrastructure Setup
+#### IAM and S3 Infrastructure Setup
 
 **Scenario:**
 
