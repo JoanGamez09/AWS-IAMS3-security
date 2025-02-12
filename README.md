@@ -93,8 +93,10 @@ Additionally, an application running on **Amazon EC2** should be able to **read*
    - **Entity type**: **AWS service → EC2**.  
 6.2. Assigned a read-only policy for the bucket.
 6.3. Configured the EC2 instance to assume the `EC2S3ReadOnlyRole`.
+     
 
 ![image](https://github.com/user-attachments/assets/935f0517-6f2a-496d-a4be-776c2aef8346)
+
 
 ![image](https://github.com/user-attachments/assets/9fd3d88c-cc64-4777-9051-3b807b5409ea)
 
@@ -110,6 +112,7 @@ Additionally, an application running on **Amazon EC2** should be able to **read*
    - Attempted to **upload** and/or **delete** objects in `/public/`. This failed.
 
      List Bucket usuario1:
+     
      ![image](https://github.com/user-attachments/assets/a8889f51-2be2-492d-a184-10dd4b3d73dc)
 
      Download from public usuario1:
@@ -124,6 +127,7 @@ Additionally, an application running on **Amazon EC2** should be able to **read*
 
 
      List Bucket usuario2:
+     
      ![image](https://github.com/user-attachments/assets/a8889f51-2be2-492d-a184-10dd4b3d73dc)
 
      Download from public usuario2:
@@ -144,12 +148,15 @@ Additionally, an application running on **Amazon EC2** should be able to **read*
    - Successfully **deleted** an object in `/public/`.
   
      List objects in bucket:
+     
      ![image](https://github.com/user-attachments/assets/8cb99f70-856f-431c-bd56-e82d343d699e)
 
      Upload an object:
+     
      ![image](https://github.com/user-attachments/assets/46a3a5d4-7149-48b0-a490-f7ca9364fc13)
 
      Delete an object:
+     
      ![image](https://github.com/user-attachments/assets/fdc3c94a-b369-4148-8007-9f67ceac7712)
 
 
